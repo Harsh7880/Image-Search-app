@@ -1,0 +1,126 @@
+body {
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    background-color: #3A3B3C;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.banner .box {
+    width: 600px;
+    height: 45px;
+    margin: auto;
+    padding: 2px 10px;
+    position: relative;
+
+}
+.banner .box input {
+    width: 100%;
+    height: 100%;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 30px;
+    /* color: white; */
+    position: absolute;
+
+}
+.banner .box input::placeholder {
+    color: #000;
+}
+.banner .box input:focus {
+    outline: none;
+    border: none;
+}
+.buttn{
+    width: 50px;
+    margin-top: 11px;
+    border: none;
+    cursor: pointer;
+    outline-style: none;
+    position: absolute;
+    right: 8px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.buttn:focus {
+    outline: none;
+    border: none;
+}
+.buttn .fa-search {
+    font-size: 22px;
+    color: #f57168;
+    transition: 0.3s ease;
+}
+.buttn .fa-search:hover {
+    font-size: 24px;
+    color: #e01f10;
+    outline: none;
+}
+.img img {
+       border-radius: 10px;
+       object-fit: cover;
+   }
+   .load-btn{
+       padding: 8px 35px;
+       background-color: #3A3B3C;
+       outline: none;
+       border: none;
+       color: #ffffff;
+       border-radius: 30px;
+       font-size: 18px;
+       font-weight: 600;
+       box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,
+       rgba(0, 0, 0, 0.07) 0px 2px 2px,
+       rgba(0, 0, 0, 0.07) 0px 4px 4px,
+       rgba(0, 0, 0, 0.07) 0px 8px 8px,
+       rgba(0, 0, 0, 0.07) 0px 16px 16px;
+   }
+@media screen and (max-width: 785px) {
+     .container{
+         max-width: 90%;
+         display: flex;
+         align-items: center;
+         padding: 0px 10px;
+         border-radius: 10px;  
+     }
+        
+     .row{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+      
+     }
+      .img{
+      width: 100%;
+      padding: 10px 15px;
+      border-radius: 10px;
+      }
+    .img img {
+        width: 100%;
+        height: 50%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+        .banner {
+            height: 70px;
+        }
+
+        .banner .box {
+            height: 45px;
+        }
+
+        .banner .box input {
+            width: 90%;
+            height: 80%;
+        }
+        .buttn {
+            margin-top: 7px;
+            right: 24px;
+        }
+}

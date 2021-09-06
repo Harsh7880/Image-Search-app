@@ -1,0 +1,4 @@
+export const FETCH_IMAGES = 'FETCH_IMAGES';
+export const SEARCH = 'SEARCH';
+export const LOAD_MORE_IMAGES = 'LOAD_MORE_IMAGES;'
+export const LOAD_MORE_IMAGES_STATUS = 'LOAD_MORE_IMAGES_STATUS';
