@@ -9,7 +9,7 @@ export const fetchImages = (search: string) => async (dispatch: any) => {
     });
     dispatch({
         type: FETCH_IMAGES,
-        payload: response.data
+        payload: {...response.data, searchValue: search}
     });
 };
 
